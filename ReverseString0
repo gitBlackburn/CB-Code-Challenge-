@@ -1,0 +1,13 @@
+#Reverse A String 
+
+'''
+One way of solving the first problem would be by using slices. Basically what they allow you 
+to do is grab given indexes of an array and because a string is a kind of array this method 
+works pretty well. 
+'''
+
+def reverse(word):
+    return word[::-1]
+
+print reverse("Hello")
+
