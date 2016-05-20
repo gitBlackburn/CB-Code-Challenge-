@@ -1,0 +1,12 @@
+'''
+Returns character conut of a given string.
+Using Python collections.
+'''
+
+
+def counter(s):
+    r = collections.Counter(s)
+    for i in r:
+        print i+":", str(r[i])+",",
+
+counter("abacca")
