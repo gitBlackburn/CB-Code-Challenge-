@@ -1,0 +1,10 @@
+#Another way to reverse a string
+
+'''
+ Alternative solution to reverse a string using 'join'
+'''
+
+def reverse1(word):
+    return ''.join(reversed(word)) # '' are two single quotes (an empty string)
+
+print reverse1("Hello")
